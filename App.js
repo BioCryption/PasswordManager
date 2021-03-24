@@ -46,5 +46,50 @@ const styles = StyleSheet.create({
     backgroundColor: '#404cd9',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  logo:{
+    position: 'absolute',
+    top: 40,
+    flex: 1,
+    width: 150,
+    height: 150,
+    resizeMode: 'contain',
+    marginTop: 0,
+    marginBottom:0
+  },
+  inputView:{
+    width:"80%",
+    backgroundColor:"white",
+    borderRadius:25,
+    height:50,
+    marginBottom:20,
+    justifyContent:"center",
+    padding:20
+  },
+  inputText:{
+    height:50,
+    color:"black"
+  },
+  forgot:{
+    color:"white",
+    fontSize:11
+  },
+  loginBtn:{
+    width:"80%",
+    backgroundColor:"#fb5b5a",
+    borderRadius:25,
+    height:50,
+    alignItems:"center",
+    justifyContent:"center",
+    marginTop:10,
+    marginBottom:10
+  },
+  welcomeTxt:{
+    color: "white",
+    height: 40,
+    alignItems:"center",
+    justifyContent:"center",
+    marginTop:10,
+    marginBottom:10
   }
 });
